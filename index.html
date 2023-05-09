@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>
+Consumo de REST-API de Futbolistas
+</p>
+
+<div>
+<label>Name </label>
+<input type="text" id="name">
+</div>
+
+<div>
+<label>Age </label>
+<input type="text" id="age">
+</div>
+
+<div>
+<label>Nationality </label>
+<input type="text" id="nationality">
+</div>
+
+<div>
+<label>Height (cm) </label>
+<input type="text" id="height_cm">
+</div> 
+
+<div>
+<label>Weight (kg) </label>
+<input type="text" id="weight_kg">
+</div>
+
+<div>
+<label>Club </label>
+<input type="text" id="club">
+</div>
+
+<div>
+<label>Position </label>
+<input type="text" id="position">
+</div>
+
+<div>
+<label>Goals </label>
+<input type="text" id="goals">
+</div>
+
+<div>
+<label>Assists </label>
+<input type="text" id="assists">
+</div>
+
+<div>
+<label>Image </label>
+<input type="text" id="image">
+</div>
+
+<br>
+<button onclick="postFutbolista()"> POST futbolista </button>
+
+<button onclick="getFutbolistas()"> GET futbolistas </button>
+<br>
+<br>
+<div id="resultado"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="callrestapi.js"></script>
+
+</body>
+</html>
